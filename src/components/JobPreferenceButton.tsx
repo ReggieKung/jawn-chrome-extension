@@ -71,7 +71,7 @@ export function JobPreferenceButton() {
               <SelectTrigger id="jobType" className="h-10 rounded-xl border border-border/50 focus:ring-2 focus:ring-primary/30 transition-all">
                 <SelectValue placeholder="Select job type" />
               </SelectTrigger>
-              <SelectContent className="bg-popover/95 backdrop-blur-sm border border-border/50 rounded-xl shadow-md z-50">
+              <SelectContent className="bg-white rounded-xl border border-border/50 shadow-md z-50">
                 <SelectItem value="Full-time">Full-time</SelectItem>
                 <SelectItem value="Part-time">Part-time</SelectItem>
                 <SelectItem value="Contract">Contract</SelectItem>
@@ -99,7 +99,7 @@ export function JobPreferenceButton() {
               <SelectTrigger id="salaryRange" className="h-10 rounded-xl border border-border/50 focus:ring-2 focus:ring-primary/30 transition-all">
                 <SelectValue placeholder="Select salary range" />
               </SelectTrigger>
-              <SelectContent className="bg-popover/95 backdrop-blur-sm border border-border/50 rounded-xl shadow-md z-50">
+              <SelectContent className="bg-white rounded-xl border border-border/50 shadow-md z-50">
                 <SelectItem value="$40,000 - $60,000">$40,000 - $60,000</SelectItem>
                 <SelectItem value="$60,000 - $80,000">$60,000 - $80,000</SelectItem>
                 <SelectItem value="$80,000 - $100,000">$80,000 - $100,000</SelectItem>
