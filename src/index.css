@@ -14,7 +14,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
     
-    --primary: 270 67% 63%; // Purple primary color
+    --primary: 270 67% 63%; /* Purple primary color */
     --primary-foreground: 0 0% 100%;
     
     --secondary: 270 50% 96%;
