@@ -6,8 +6,8 @@ import { Info } from "lucide-react";
 export function ExtensionHeader() {
   return (
     <div className="flex justify-between items-center mb-6 animate-in animate-fade-in">
-      <h1 className="text-2xl font-semibold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-        AutoApply
+      <h1 className="text-2xl font-semibold bg-gradient-to-r from-purple-600 to-purple-400 bg-clip-text text-transparent">
+        Jawn
       </h1>
       <TooltipProvider>
         <Tooltip>
@@ -18,7 +18,7 @@ export function ExtensionHeader() {
           </TooltipTrigger>
           <TooltipContent className="bg-background/95 backdrop-blur-sm border border-border/50 shadow-md rounded-xl">
             <p className="max-w-[180px] text-xs">
-              AutoApply helps you apply to jobs automatically based on your preferences and uploaded resume.
+              Jawn helps you apply to jobs automatically based on your preferences and uploaded resume.
             </p>
           </TooltipContent>
         </Tooltip>
